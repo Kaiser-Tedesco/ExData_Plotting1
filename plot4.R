@@ -43,7 +43,7 @@ setwd("C:/Users/andre/Dropbox/DataScience/Assignments/ExDataAssign1/ExData_Plott
         
         with(dat, plot(date, submeter1, type = "n",
                ylab = "Energy sub metering"))
-        legend("topright", pch = "_", col = c("black","red","blue"), bty = "n",
+        legend("topright", lty = 1, col = c("black","red","blue"), bty = "n",
                 legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
         with(dat,lines(date, submeter1, col = "black"))
         with(dat, lines(date,submeter2, col ="red"))
